@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-NAME = "O Pika Pika"
+NAME = 'Pikachu: "Pika Pika"'
 
 # Configurações do jogo
 ROWS = 6
