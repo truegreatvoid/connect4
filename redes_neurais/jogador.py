@@ -13,6 +13,7 @@ OPPONENT = 1  # Jogador adversário
 
 # Carregar o modelo treinado
 model = load_model('connect4_model.h5')
+# model = load_model('connect4agent_v3_Current_model.h5')
 
 def jogada(board, piece):
     # Preparar o estado do tabuleiro para a rede neural

@@ -1,9 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
-import rede_neurais.jogador as p1 # Importa o módulo do jogador
+# import redes_neurais.jogador as p1 # Importa o módulo do jogador
+import redes_neurais.jogador_DQN_p1 as p1 # Importa o módulo do jogador
+# import redes_neurais.jogador_DQN_p2 as p2 # Importa o módulo do jogador
+import redes_neurais.jogador as p2 # Importa o módulo do jogador
 # import jogador_random as p1 # Importa o módulo do jogador
-import aluno as p2
+# import aluno as p2
 
 # Configurações do tabuleiro
 ROWS = 6
