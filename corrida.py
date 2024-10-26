@@ -11,11 +11,11 @@ def limpar_tela():
 
 comprimento_pista = 50 
 linha_chegada = comprimento_pista
-carro1 = "🐧" 
-carro2 = "🐉" 
+hiago = "🐧" 
+leticia = "🐈" 
 
-voa_carro1 = 0
-voa_carro2 = 0
+voa_hiago = 0
+voa_leticia = 0
 
 vencedor = None
 
@@ -24,33 +24,33 @@ while not vencedor:
 
     limpar_tela()
     
-    random1 = random.randint(1, 3)
-    random2 = random.randint(1, 3)
+    random1 = random.randint(0, 1)
+    random2 = random.randint(1, 2) # kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
     
-    print(f'anterior: {voa_carro1=}')
-    print(f'passada : {voa_carro2=}')
+    print(f'anterior: {voa_hiago=}')
+    print(f'passada : {voa_leticia=}')
 
-    voa_carro1 += random1
-    voa_carro2 += random2
+    voa_hiago += random1
+    voa_leticia += random2
     
-    print(f'{voa_carro1=}')
-    print(f'{voa_carro2=}')
+    print(f'{voa_hiago=}')
+    print(f'{voa_leticia=}')
 
-    if voa_carro1 >= linha_chegada and voa_carro2 >= linha_chegada:
+    if voa_hiago >= linha_chegada and voa_leticia >= linha_chegada:
         vencedor = "Empate!"
-    elif voa_carro1 >= linha_chegada:
-        vencedor = "Jogador 1 venceu!"
-    elif voa_carro2 >= linha_chegada:
-        vencedor = "Jogador 2 venceu!"
+    elif voa_hiago >= linha_chegada:
+        vencedor = "Hiago venceu! 🐧"
+    elif voa_leticia >= linha_chegada:
+        vencedor = "Leticia venceu! 🐈"
     
-    pista1 = "=" * voa_carro1 + carro1 + "-" * (linha_chegada - voa_carro1)
-    pista2 = "." * voa_carro2 + carro2 + "-" * (linha_chegada - voa_carro2)
+    pista1 = "=" * voa_hiago + hiago + "-" * (linha_chegada - voa_hiago)
+    pista2 = "." * voa_leticia + leticia + "-" * (linha_chegada - voa_leticia)
     
-    calc1 =  "-" * voa_carro1
-    calc2 =  "-" * voa_carro2
+    calc1 =  "-" * voa_hiago
+    calc2 =  "-" * voa_leticia
 
-    calc1_2 = linha_chegada - voa_carro1
-    calc2_2 = linha_chegada - voa_carro1
+    calc1_2 = linha_chegada - voa_hiago
+    calc2_2 = linha_chegada - voa_hiago
 
     print(f'valores pista 1: {calc1=}')
     print(f'valores pista 2: {calc2=}')
