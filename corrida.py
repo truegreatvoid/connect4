@@ -72,16 +72,3 @@ while not vencedor:
         break
     
     time.sleep(1)
-
-while True:
-    resposta = input("\nDeseja jogar novamente? (s/n): ").strip().lower()
-    if resposta == 's':
-        voa_carro1 = 0
-        voa_carro2 = 0
-        vencedor = None
-        break
-    elif resposta == 'n':
-        print("Obrigado por jogar!")
-        sys.exit()
-    else:
-        print("Por favor, digite 's' para sim ou 'n' para não.")
