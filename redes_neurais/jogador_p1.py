@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-NAME = 'vini'
+NAME = 'blabla'
 
 # Configurações do jogo
 ROWS = 6
@@ -12,7 +12,7 @@ PLAYER = 2  # Este jogador
 OPPONENT = 1  # Jogador adversário
 
 # Carregar o modelo treinado
-model = load_model('connect4_model.h5')
+model = load_model('connect4_model_v1_v2_m1.h5')
 # model = load_model('connect4agent_v3_Current_model.h5')
 
 def jogada(board, piece):
