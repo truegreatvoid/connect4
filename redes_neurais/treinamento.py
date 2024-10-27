@@ -28,7 +28,7 @@ def load_data(file_path):
     return np.array(X), np.array(Y)
 
 # Carregar os dados
-X, Y = load_data('connect4_data.csv')
+X, Y = load_data('saida\csv\connect4_data.csv')
 
 # Verificar a forma dos dados
 print(f"Formato de X: {X.shape}")
