@@ -262,5 +262,5 @@ def gerar_dados(num_jogos, arquivo_saida):
 
 if __name__ == "__main__":
     NUM_JOGOS = 25000  # Defina o número de jogos que deseja simular
-    ARQUIVO_SAIDA = 'saida/csv/connect4_data_v4.csv'
+    ARQUIVO_SAIDA = 'saida/csv/connect4_data_300000.csv'
     gerar_dados(NUM_JOGOS, ARQUIVO_SAIDA)
