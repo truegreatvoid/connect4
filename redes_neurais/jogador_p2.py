@@ -12,7 +12,7 @@ PLAYER = 2  # Este jogador
 OPPONENT = 1  # Jogador adversário
 
 # Carregar o modelo treinado
-model = load_model('connect4_model_v2.h5')
+model = load_model(r'models/connect4_model_v4_final.keras')
 # model = load_model('connect4agent_v3_Current_model.h5')
 
 def jogada(board, piece):

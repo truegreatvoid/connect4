@@ -25,7 +25,7 @@ PLAYER1 = 1
 PLAYER2 = 2
 
 # Diretório de entrada dos dados
-INPUT_DIR = 'saida/teste_1'
+INPUT_DIR = 'saida/teste_2'
 
 # Diretório para salvar modelos
 MODEL_DIR = 'models'
